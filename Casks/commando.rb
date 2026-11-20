@@ -4,21 +4,21 @@ cask "commando" do
 
   on_macos do
     on_arm do
-      sha256 "a3658243ae32f31722ed17781dc2a2366153f0d7d2cafcde777500199b292b5f"
+      sha256 "47382cb96e106c595b58f6f6791eff9d8c48e634141329e48dec2d563906a708"
       url "https://github.com/liliumapps/commando/releases/download/v#{version}/commando_#{version}_Darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "948181e94969dc7b37407f02711fcf074f10de7767ad8dbb1a08764ce5e99a9e"
+      sha256 "8e7a358fc1b7c170a454451af33eaa568270c71940875a88d269d87ac065597a"
       url "https://github.com/liliumapps/commando/releases/download/v#{version}/commando_#{version}_Darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "cb001b339069ee7890194a7cf9db6ddf752061386413f543d8539b274037a50a"
+      sha256 "1d998bf02966fd182c9e6a1f077bc858c7657ff81eadd1cc3e86602a7688982b"
       url "https://github.com/liliumapps/commando/releases/download/v#{version}/commando_#{version}_Linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "76764b9a41332a0092e316bd45bad7d6de1cda14d3c9abc67749d9e6e70cd307"
+      sha256 "0a3c047a5b039a3212dee398bb6dc8db01e51900901df82729a8f6f3971fca39"
       url "https://github.com/liliumapps/commando/releases/download/v#{version}/commando_#{version}_Linux_x86_64.tar.gz"
     end
   end
